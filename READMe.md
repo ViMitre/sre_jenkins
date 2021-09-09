@@ -39,7 +39,7 @@ Untick `GitHub hook trigger for GITScm polling`, since this job will be triggere
 #### **Add this build step (execute shell):**
 ![](img/shell1.png)
 ```
-ssh -A -o "StrictHostKeyChecking=no" ubuntu@34.251.140.216 << EOF	# SSH into app machine and execute following commands
+ssh -A -o "StrictHostKeyChecking=no" ubuntu@34.251.140.216 << EOF
 
 cd /home/ubuntu/sre_jenkins/
 git checkout dev
