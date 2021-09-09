@@ -2,6 +2,7 @@
 ![](img/jenkins.png)
 ![](img/diagram1.png)
 ## Step 1: Have the instances ready (app and db)
+See previous repos: [Two-tier architecture](https://github.com/ViMitre/two-tier_architecture) and [AWS VPC Networking](https://github.com/ViMitre/aws_vpc_networking)
 ## Step 2: Setup SSH key on the repo
 ### 2.1: Generate SSH key on local system
 Navigate to ~/.ssh and generate the key:<br>
