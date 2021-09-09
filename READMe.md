@@ -41,11 +41,11 @@ Untick `GitHub hook trigger for GITScm polling`, since this job will be triggere
 ```
 ssh -A -o "StrictHostKeyChecking=no" ubuntu@34.251.140.216 << EOF	# SSH into app machine and execute following commands
 
-cd /home/ubuntu/sre_jenkins/ # Navigate to repo's folder
-git checkout dev # Change branch to 'dev'
-git pull # Pull the changes we made on local host
-git checkout main # Change branch to main
-git merge dev # Merge 'dev' branch into main
+cd /home/ubuntu/sre_jenkins/
+git checkout dev
+git pull
+git checkout main
+git merge dev
 
 EOF
 ```
